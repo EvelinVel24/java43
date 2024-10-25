@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>CrearSession</servlet-name>
+        <servlet-class>com.ejemplo.sesion.CrearSession</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CrearSession</servlet-name>
+        <url-pattern>/CrearSession</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VerSession</servlet-name>
+        <servlet-class>com.ejemplo.sesion.VerSession</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VerSession</servlet-name>
+        <url-pattern>/VerSession</url-pattern>
+    </servlet-mapping>
+</web-app>
